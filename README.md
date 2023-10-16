@@ -13,95 +13,54 @@ YouTube link: [Project Two Presentation ](https://www.youtube.com/watch?v=8vcZwH
  
  
 
-OUTLINE: 
+Experiences and Strengths:
 
- 
+Over the course of CS 470, I've delved deep into cloud development and its myriad nuances. This course has provided a solid foundation upon which I can anchor my future professional endeavors.
 
-Slide 1: Introduction 
+Skills Development:
 
-Image: Professional photo 
+Serverless Architecture: I've mastered the intricacies of building and deploying serverless web applications using AWS. This includes working with Lambda functions, API Gateway, and S3 buckets.
+Containerization: I've learned about Docker, its utilities in containerizing applications, and the advantages of Docker Compose in managing multi-container setups.
+Cloud-based Databases: Transitioning from MongoDB to DynamoDB exposed me to the challenges and advantages of using cloud-native databases.
+This acquired expertise undeniably enhances my marketability. As industries increasingly transition to the cloud, professionals adept in cloud solutions are in demand.
 
-Script: "Hello everyone, I'm Eric Florence, a recent Computer Science graduate. Today, I will share with you the journey of migrating a full-stack application to AWS serverless architecture, and the challenges and solutions we encountered along the way." 
+Strengths as a Software Developer:
 
- 
- 
+Adaptability: Quickly transitioning from traditional architectures to serverless ones.
+Analytical Thinking: Effectively addressing challenges, like database migration, and optimizing performance.
+Continuous Learning: Keeping updated with cloud advancements and best practices.
+Roles I'm Prepared For:
 
-Slide 2: Purpose of Presentation 
+Cloud Solutions Architect: Designing holistic cloud solutions for enterprises.
+Serverless Application Developer: Focusing on developing and deploying serverless applications.
+Cloud Migration Specialist: Assisting businesses in transitioning from traditional setups to the cloud.
+Planning for Growth:
 
-Image: Cloud with arrows showing movement from a traditional infrastructure 
+Microservices and serverless architectures have revolutionized the way we think about software scalability and maintenance.
 
-Script: "The aim of this presentation is to detail the nuances of cloud development for both technical and non-technical audiences. Let's dive into the world of cloud!" 
+Handling Scale and Error Handling:
 
- 
- 
+Decoupled Services: Microservices would allow different app components to scale independently based on demand.
+Auto-Scaling: Leveraging cloud services to automatically adjust resources with varying loads.
+Centralized Logging and Monitoring: Using tools like AWS CloudWatch to detect and rectify errors in real-time.
+Predicting Costs:
 
-Slide 3: Containerization and Orchestration 
+Cost Calculators: Utilize AWS's cost calculators to estimate expenses based on expected usage.
+Monitoring: Regularly monitor actual usage and adjust budget forecasts accordingly.
+Containers vs. Serverless:
 
-Image: Screenshot of Docker Compose 
+Cost Predictability: While containers have consistent costs, serverless costs vary with usage. Thus, for predictable workloads, containers might be more cost-efficient, but for fluctuating workloads, serverless can be more economical.
+Pros and Cons for Expansion:
 
-Script: "When moving to the cloud, we leveraged containerization using Docker. It provides a consistent environment and simplifies deployment. Docker Compose, in particular, enabled us to define and run multi-container applications seamlessly." 
+Pros:
+Flexibility: Easily add new features without disrupting existing services.
+Scalability: Efficiently handle increased user loads.
+Cons:
+Complexity: More services can lead to intricate architectures.
+Cost Overruns: Without proper monitoring, costs can escalate.
+Elasticity and Pay-for-Service in Future Growth:
 
- 
- 
-
-Slide 4: The Serverless Cloud 
-
-Image: UML diagram highlighting serverless components 
-
-Script: "Serverless is the idea of building and running apps without thinking about servers. One advantage is that you only pay for the compute time you consume. We chose AWS S3 for our frontend as it offers scalable and durable object storage, making it a preferred choice over local storage." 
-
- 
- 
-
-Slide 5: Integrating Frontend with Backend 
-
-Image: UML diagram showcasing the connection between frontend (Angular) and backend (Lambda) 
-
-Script: "Lambda provided the logic for our API. With a few scripts, we were able to connect our Angular frontend to the backend, ensuring seamless CRUD functionality for our questions and answers module." 
-
- 
- 
-
-Slide 6: Data Models: MongoDB vs DynamoDB 
-
-Image: Side-by-side comparison table or diagram for MongoDB and DynamoDB 
-
-Script: "We migrated our data from MongoDB to DynamoDB. While MongoDB is document-oriented, DynamoDB is a key-value store. Adapting to the query differences was challenging, but with the right scripts, we made the transition smoothly." 
-
- 
- 
-
-Slide 7: Cloud-Based Development Principles 
-
-Image: graph comparing Capacity vs. Usage 
-
-Script: "AWS promotes elasticity, automatically adjusting resources as per demand. Furthermore, the pay-for-use model ensures we only pay for the resources we use. This flexibility optimizes costs and performance." 
-
- 
- 
-
-Slide 8: Securing Your Cloud Application 
-
-Image: Diagram illustrating the secure connections between Lambda, Gateway, and S3 
-
-Script: "Security is paramount. We implemented IAM roles and custom policies to ensure unauthorized access was averted. Connections between Lambda, Gateway, and our S3 bucket were also encrypted to ensure data integrity and security." 
-
- 
- 
-
-Slide 9: Salient Points 
-
-Image: Cloud icon with three key points highlighted around it 
-
-Script: "1) Migrating to serverless simplifies scalability and operations. 2) Proper tools, such as Docker and AWS services, make the transition smoother. 3) Ensuring security and understanding cloud principles are key to a successful migration." 
-
- 
- 
-
-Slide 10: Conclusion 
-
-Image: Cloud with a check mark symbol 
-
-Script: "In summary, migrating to a cloud-native application using AWS microservices has been a transformative experience. The lessons learned have been invaluable, and I hope my insights today assist others on their cloud journey." 
-
+Elasticity: Ensures the app can handle traffic surges, thus ensuring consistent user experience.
+Pay-for-Service: Allows businesses to optimize costs, paying only for what they use. As the app grows, this model ensures that costs are directly aligned with user engagement.
+In conclusion, CS 470 has equipped me with the knowledge and skills to harness the cloud's potential. As I look to the future, I'm excited to apply these learnings to real-world challenges, ensuring applications are scalable, resilient, and cost-effective.
  
